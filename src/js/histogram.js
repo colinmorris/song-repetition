@@ -7,7 +7,7 @@ import HIST from './histogram-data.js';
 let animation_dur = 1000;
 
 const vline_dat = [
-  {text: 'This Essay', rscore: comm.pct_to_rscore(10.8)},
+  {text: 'Avg. prose', rscore: comm.pct_to_rscore(10.8)},
   {text: 'Avg. song', rscore:.995},
   //{text: 'Bad Romance', rscore: 2.028},
   {text: 'Cheap Thrills', rscore: comm.pct_to_rscore(76.2)},

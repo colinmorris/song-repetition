@@ -3,6 +3,14 @@ $allsongs-color = steelblue
 $hits-color = orange
 
 #overtime-graphic
+    .graphic-prose
+        width 10%
+    .graphic-vis
+        width 70%
+        margin-left 20%
+    .tick text
+        font-size .75rem
+    background white
     //max-width 70rem
     margin-bottom 8rem
     .title
@@ -20,13 +28,13 @@ $hits-color = orange
         .grid
             stroke-width 1
             line
-              shape-rendering crispEdges
+              //shape-rendering crispEdges
               +mobile()
                 shape-rendering unset
         .grid-minor
             stroke #ddd
         .grid-major
-            stroke #aaa
+            stroke #bbb
         .trendline
             stroke-width 2
         .legendCells
